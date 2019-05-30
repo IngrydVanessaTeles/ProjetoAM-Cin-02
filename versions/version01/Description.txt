@@ -1,0 +1,17 @@
+Pré-processamento:
+-Filtro de caracteres especiais
+-Remoção de stopwords
+-Steammer
+-Redução da base (apenas labels diferentes de 0) - 540110
+
+Extração de características:
+-TF-IDF (540110x109767)
+
+Modelo:
+-Regressão Linear
+
+Divisão da base para validação:
+-Percent split: 67-33
+
+MSE: 
+-0.03324589913948883
