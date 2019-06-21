@@ -5,7 +5,7 @@ Pré-processamento:
 -Redução da base (apenas labels diferentes de 0) - 540110
 
 Extração de características:
--TF-IDF (540110x109767)
+-TF-IDF com redução para apenas termos com frequencia maior que 0.001 (3301x109767)
 
 Modelo:
 -Regressão logística

@@ -8,7 +8,7 @@ Extração de características:
 -TF-IDF (540110x109767)
 
 Modelo:
--Regressão logística
+-clf = SGDClassifier(loss='log', penalty='l2',alpha=1e-3, random_state=42,max_iter=5, tol=None)
 obs: alteramos o modelo para tratar o problema de classificação e pegar as probabilidades
 
 Divisão da base para validação:

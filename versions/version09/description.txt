@@ -8,7 +8,7 @@ Extração de características:
 -TF-IDF (540110x109767)
 
 Modelo:
--Regressão logística
+-BernoulliNB
 obs: alteramos o modelo para tratar o problema de classificação e pegar as probabilidades
 
 Divisão da base para validação:

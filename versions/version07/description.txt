@@ -5,7 +5,7 @@ Pré-processamento:
 -Redução da base (apenas labels diferentes de 0) - 540110
 
 Extração de características:
--Term frequency (540110x109767)
+-TF-IDF (540110x109767)
 
 Modelo:
 -Classificador Multinomial Naive-Bayes
