@@ -1,0 +1,4 @@
+uso de CNN
+Porém deu estouro de memória e não executou até o fim
+Usando GPU
+Usando Pythorch
