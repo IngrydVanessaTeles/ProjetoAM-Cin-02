@@ -1,0 +1,15 @@
+Pré-processamento:
+-Filtro de caracteres especiais
+-Remoção de stopwords
+-Steammer
+-Redução da base (apenas labels diferentes de 0) - 540110
+
+Extração de características:
+-TF-IDF com redução para apenas termos com frequencia maior que 0.005 (1052)
+
+Modelo:
+-Deep learning (CNN + LSTM (500 épocas))
+obs: alteramos o modelo para tratar o problema de classificação e pegar as probabilidades
+
+Divisão da base para validação:
+-Percent split: 90-10
